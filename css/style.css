@@ -1,0 +1,53 @@
+html 
+{
+    font-family: roboto , sans-serif;
+}
+body
+{
+    background-color:#455A64 ;
+    margin: auto;
+    width: auto;
+    text-align: center ;
+    text-decoration-color: #212121;
+}
+.barre
+{
+    background-color: #757575;
+}
+h1, p,h3 
+{ 
+    color: #FF4081;
+    font-family: roboto , sans-serif;
+}
+
+.button:hover {
+  background-color: #FF4081; 
+  color: white;
+}
+
+.button , .valider
+{
+    text-decoration-color: #212121;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    border: none;
+    font-size: 20px;
+    padding: 14px 40px;
+    background-color: #FF4081;
+}
+.select1
+{
+    font-size: 20px;
+    padding: 14px 40px;
+    background-color: #FF4081;
+    border-radius: 8px;
+}
+.nom
+{
+     
+  border: 2px solid #FF4081;
+}
+.text
+{
+     width: 75%;
+}
