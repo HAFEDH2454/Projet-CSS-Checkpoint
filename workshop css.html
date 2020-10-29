@@ -1,0 +1,364 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{font-family: Helvetica Neue,Helvetica,Arial,sans-serif;}
+body
+    { letter-spacing: .3px;
+        margin: 0;
+         color: #858383;
+        
+        line-height: 1.6;
+        
+    }
+main, footer
+    {
+        margin: auto;
+        width: 65%;
+          
+    }
+.barnav
+    {    height: 70px;
+        position: fixed;
+        width: 100%;  
+        margin-left: 11%;
+        background-color: white;
+        opacity: 95%;
+    }
+.barin
+    { 
+      width: 75%; 
+      
+    }
+.selectbar
+    { margin: 12px;
+       padding: 11px;
+        border: 0px solid transparent;
+        font-family: Helvetica Neue,sans-serif;
+        font-size: 16px;
+        height: 40px;
+         text-decoration: none;
+        color: #ababab;
+       
+    }
+.selectbar:hover
+    {
+        color: #00b39b;
+    }
+ 
+
+        .barnav1 > a
+    {
+        display: flex;
+         justify-content:flex-end;
+    }
+  .barnav1
+    { 
+        list-style-type: none;
+        display: flex;
+         justify-content: space-around;
+       
+          }
+.imggg
+    {
+        width:auto;
+        height: 20px;
+        padding-right: 5px;
+    }
+    .abar:hover
+    { text-decoration-color:#00b39b; 
+        font-size: 16px;
+        color: #00b39b;
+        filter: blur(0.001px);
+    }
+    .abar
+    {     font-size: 16px;
+         filter: grayscale(100%);
+        text-decoration: none;
+        color: #ababab;
+    }
+h1,h2
+    {
+        text-align: center;
+        color: #00b39b;
+    }
+.logo
+    {text-align: center;
+        width:4%;
+        max-width:400px;
+          display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+       
+  
+       }
+
+.p1
+    {
+        display: flex;
+        flex-direction: row;
+        color: #858383;
+    }
+.pdr
+    {
+         
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        
+        border-radius: 20px;
+        
+        
+    }
+.pdr > div
+    {
+        padding-left: 10px;
+    }
+.patient
+    {
+       
+        border: 2px solid #00ccb1;
+        border-radius: 20px;
+    }
+.doctor
+        {
+            background: #3d83df;
+            border: 2px solid #3d83df;
+            border-radius: 20px; 
+        }
+    
+.grill1
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        padding-left: 52px;
+    }
+.cont
+    {
+        text-align: center;
+        padding: 15px;
+    }
+.global
+    {
+        display: flex;
+        justify-content:space-between;
+    }
+
+.logo2
+    {
+        width: 50%;
+        float:right;
+        border-radius: 20px;
+    }
+
+.big0{grid-area: big0;
+   
+    }
+.big1{grid-area: big1;text-align: center;background-color: white;border-radius: 20px;} 
+.big2{grid-area: big2;text-align: center;background-color: white;border-radius: 20px;}
+.big3{grid-area: big3;text-align: center;background-color: white;border-radius: 20px;}
+.big4{grid-area: big4;text-align: center;background-color: white;border-radius: 20px;}
+
+.bigg
+    {
+       margin: auto; 
+        width: 70%; 
+        display: grid;
+        grid-template-areas: 'big0 big1 big2'
+            'big0 big3 big4';
+        grid-gap: 10px ; 
+        padding: 10px;
+    }
+big2,big1,big3,big4
+    {
+        height: 250px;
+        width: 194px;
+    }
+.imgicon
+    {  
+       
+        width:95%;
+       
+    }
+.improve
+    { position:absolute;
+        z-index: 1;
+        background-color: white;
+        justify-content: center;
+        width: 100%;
+    }
+    .espace{height: 200px}
+.inter
+    {
+      display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto; 
+  grid-gap: 30px;
+  
+  padding: 30px ;
+         
+    }
+.inter > div
+    {
+        padding: 50px 0; 
+    }
+button
+    {background-color: #3d83df;
+     color: white;
+    font-size: 10px;
+    height:30px;
+        width: 120px;
+        text-align: center;
+        border-radius: 5px;
+    border: 8px; }
+.seeop
+    { 
+        float: right;
+    }
+img    {  border-radius: 8px;}
+    a:any-link
+    {
+        text-decoration: none;
+        
+    }
+
+.country
+    {width: 40%;
+    background: white;
+    
+        border-radius: 3px;
+     border: 0.05px solid transparent;
+    height: 40px;
+    }
+footer
+    {text-align: center;}
+</style>    
+<link rel="icon" href="./res/sygnet.png">
+</head>
+<body>
+    
+    <title>Docplanner Group</title>
+    <div class="barnav" >
+    <div class="barin">
+        <ul class="barnav1">
+        <li><a href="https://www.docplanner.com/about-us"> 
+            <img src="./res/acc.jpg" alt="syy" style="width: 280px; height=280px; text-align: end;" ></a> </li>
+     
+       
+            <li><a href="https://www.docplanner.com/about-us" class="abar" style="line-height: 2cm; text-align: end;" >About us</a> </li>
+        <li><a href="https://www.docplanner.com/career" class="abar" style="line-height: 2cm;  text-align: end;">Career</a> </li>
+        <select class="selectbar" style=" text-align: end;" >
+            <option> Departments</option>
+            <option >Marketing & PR</option>
+            <option>Customer Success & Sales</option>
+            <option>IT, Product, Data</option>
+            <option>Finance & Administration</option>
+            <option>HR & more</option>
+        </select>
+        </ul>
+      
+      </div>  
+    </div><br><br><br><br><br><br>
+<main>
+    <img src="./res/sygnet.png" class="logo" >
+   <h1> <br>
+       Making the healthcare experience more human</h1> 
+    <div class="p1" style="line-height: 1.6;"><p >We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+    <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+    </div>
+    <div class="pdr">
+    <div class="patient" style="background: #00ccb1;">
+         <br>For patients<br>
+        <h3>Find a doctor, book a visit and solve any health-related doubt</h3>
+        <select class="country">
+            <option>CHOOSE COUNTRY</option>
+            <option>ARGENTINA</option>
+            <option>BRAZIL</option>
+            <option>CHILE</option>   
+            <option>COLOMBIA</option>
+        </select>
+        <img src="./res/screen-marketplace@2x.jpg" class="logo2">
+    </div>
+        <div class="espace"></div>
+    <div class="doctor" >
+        <br>For doctors<br>
+        <h2 style="color: white;">Save time managing visits and cut no-shows by half</h2>
+        <img src=".\res\screen-saas@2x.jpg"  class="logo2">
+    </div></div>
+    <div class="global">
+    <p style="color: #00ccb1; font-size: 28px; margin-left: 1%;">We are a global<br> company <br>with local culture</p>
+        <div class="grill1">
+            
+            <div class="cont"><h3><a href="" class="abar"><img src="./res/sygnet.png" class="imggg">ZnanyLekarz</a></h3></div>
+            <div class="cont"><h3><a href="" class="abar"><img src="./res/sygnet.png" class="imggg">Doctoralia</a></h3></div>
+            <div class="cont"><h3><a href="" class="abar"><img src="./res/sygnet.png" class="imggg">MioDottore</a></h3></div>
+            <div class="cont"><h3><a href="" class="abar"><img src="./res/sygnet.png" class="imggg">DoktorTakvimi</a></h3></div>
+            <div class="cont"><h3><a href="" class="abar"><img src="./res/sygnet.png" class="imggg">ZnamyLekar</a></h3></div>
+       </div>
+    </div>
+</main>
+<div class="leader" style="background-color: #e5faf8; height: 560px;">
+    
+<div class="bigg">
+     <div class="big0">
+         <h1>The world's biggest healthcare platform</h1>
+         <br>
+         <div class="big00">We work from 6 offices all over the world, bringing Docplanner Group to life in a dozen countries.</div>
+        
+    </div>
+          <img src="res/gmicon.png" class="imgicon">
+
+
+        <div class="big1"><img src="./res/flag.png" alt="img"> <h2>Leader in 10 countries</h2>
+        <div class="textg">lPoland, Turkey, Spain, Italy, Czech Republic, Mexico, Brazil, Colombia, Argentina and Chile</div></div>
+
+
+         <div class="big2"><img src="./res/visits.png" alt="img2"><h2>3 million appointments</h2>
+             <div class="textg"> booked last month</div></div>
+
+
+         <div class="big3"><img src="./res/patients.png" alt="img3"> <h2>30 million unique patients</h2>
+             <div class="textg"> visit us every month</div></div>
+
+
+             <div class="big4"><img src="./res/doctors.png" alt="img4"> <h2>2 million active doctors</h2>
+                 <div class="textg">  trust in our solutions</div></div>
+    </div>
+    
+</div>
+    <div class="improve" style="text-align: center;">
+        <h2 style="color:00b39b;">Improve the lives of millions.<br> Change yours forever</h2>
+        More than 1300 team mates share our same vision, goals and passion. <br>With offices in Warsaw,     Barcelona, Istanbul, Rome, Mexico City and <br>Curitiba, our search for great talent never          stops.
+    </div>  
+    <div class="espace"></div>
+ <div class="inter"  >
+    <a href="www.google.com"> <div class="city1"  ><img src="res/warsaw.png"  ><br><br> warsaw<button type="button" class="seeop" formaction="https://www.docplanner.com/career?&loc=poland#jobs-offers" >SEE OPENINGS</button> </div></a>
+    <div class="city2"><img src="res/barcelona.png"><br><br> barcelona<button type="submit" class="seeop" >SEE OPENINGS</button></div>
+    <div class="city3"><img src="res/istanbul.png"><br> <br>istanbul<button type="submit" class="seeop">SEE OPENINGS</button></div>
+    <div class="city4"><img src="res/rome.png"><br> <br>rome<button type="submit" class="seeop">SEE OPENINGS</button></div>
+    <div class="city5"><img src="res/mexico-city.png"><br><br> mexico city<button type="submit" class="seeop">SEE OPENINGS</button></div>
+    <div class="city6"><img src="res/curitiba.png"><br><br> curitiba<button type="submit" class="seeop">SEE OPENINGS</button></div>
+ </div>   <br>  
+        
+        
+        
+  
+    
+    
+    
+    
+    
+    
+    
+<footer>
+    <br> We are leaders in 10 countries: <a href="https://www.znanylekarz.pl/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920"> Poland</a>, <a href="https://www.doktortakvimi.com/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Turkey</a>, <a href="https://www.doctoralia.es/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Spain</a>, <a href="https://www.miodottore.it/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Italy</a>, <a href="https://www.znamylekar.cz/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Czech Republic</a>, <a href="https://www.doctoralia.com.mx/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Mexico</a>, <a href="http://www.doctoralia.com.br/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Colombia</a>, <a href="http://www.doctoraliar.com/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Brazil</a>, <a href="http://www.doctoraliar.com/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Argentina</a> and <a href="http://www.doctoralia.cl/?__hstc=94104962.da8c5059534a002feb8edb8e2f303a4e.1603488125154.1603488125154.1603488125154.1&__hssc=94104962.1.1603488125155&__hsfp=423284920">Chile</a><br><br>
+
+This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.
+<br><br>
+www.docplanner.com © 2020
+    </footer>
+</body>
+</html>
